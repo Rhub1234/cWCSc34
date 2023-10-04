@@ -1,0 +1,13 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Blade ball", HidePremium = false, SaveConfig = true, ConfigFolder = "R hub "})
+
+local Auto parry = Window:MakeTab({
+	Name = "Auto parry",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+end
+OrionLib:Init()
